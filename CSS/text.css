@@ -1,4 +1,4 @@
-body {
+html {
     padding: 0;
     margin: 0;
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
@@ -6,4 +6,25 @@ body {
     line-height: 1.5;
     color: #001522;
     background: #fefefe;
+}
+
+/* headings */
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.2rem;
 }
