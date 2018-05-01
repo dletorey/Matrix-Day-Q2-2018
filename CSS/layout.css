@@ -97,7 +97,9 @@ header a, footer a {
 
 /* Footer */
 
-footer ul {
-    display: flex;
-    justify-content: space-between;
+@media (min-width: 500px) {
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+    }
 }
