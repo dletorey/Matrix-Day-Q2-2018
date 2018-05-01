@@ -28,3 +28,14 @@ h4 {
 h5 {
     font-size: 1.2rem;
 }
+
+/* anchors */
+
+a {
+    color: #f05a3f;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+}
