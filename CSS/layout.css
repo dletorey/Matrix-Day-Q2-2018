@@ -97,6 +97,7 @@ header a, footer a {
 
 /* Footer */
 
-footer ul li {
-    display: inline;
+footer ul {
+    display: flex;
+    justify-content: space-between;
 }
