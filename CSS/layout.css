@@ -1,6 +1,6 @@
-/* Header */
+/* Header & Footer */
 
-header {
+header, footer {
     background-color: #f05a3f;
     padding: 1rem;
 }
@@ -9,7 +9,7 @@ header h1 {
     text-align: center;
 }
 
-header a {
+header a, footer a {
     color: white;
 }
 
