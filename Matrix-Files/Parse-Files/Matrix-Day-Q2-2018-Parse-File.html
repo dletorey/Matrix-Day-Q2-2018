@@ -1,0 +1,42 @@
+<mysource_area id_name="edit_plus_config" design_area="nest_content" print="no" />
+<mysource_area id_name="edit_plus" design_area="editplus">
+    <mysource_print id_name="edit_plus_config" />
+</mysource_area>
+<!doctype html>
+<html>
+    <head>
+        <mysource_area id_name="head_content" design_area="nest_content" />
+    </head>
+    <body>
+        <header>
+            <mysource_area id_name="header_content" design_area="nest_content" />
+        </header>
+        <nav>
+            <mysource_area id_name="nav" design_area="menu_normal">
+            <ul>
+                <mysource_asset>
+                <li><a href="<mysource_print var='asset_url' />"><mysource_print var="asset_attribute_name" /></a>
+                <mysource_sub id_name="sub_nav" design_area="menu_normal">
+                    <ul>
+                    <mysource_asset>
+                        <li><a href="<mysource_print var='asset_url' />"><mysource_print var="asset_attribute_name" /></a></li>
+                    </mysource_asset>
+                    </ul>
+                </mysource_sub>
+                </li>
+                </mysource_asset>
+            </ul>
+            </mysource_area>
+        </nav>
+        <main>
+            <h2><mysource_print id_name="__global__" var="asset_attribute_name" /></h2>
+            <mysource_area id_name="body" design_area="body" />
+        </main>
+        <aside>
+            <mysource_area id_name="rhs_content" design_area="nest_content" />
+        </aside>
+        <footer>
+            <mysource_area id_name="footer_content" design_area="nest_content" />
+        </footer>
+    </body>
+</html>
