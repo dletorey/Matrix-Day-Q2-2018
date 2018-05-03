@@ -33,12 +33,13 @@ h5 {
 
 a {
     color: #f05a3f;
+    font-weight: 600;
 }
 
 a:hover {
     text-decoration: none;
 }
 
-nav a, header a, footer a {
-    font-weight: 600;
+main a {
+    font-weight: 400;
 }
