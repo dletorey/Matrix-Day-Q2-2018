@@ -61,10 +61,10 @@ li.completed {
 
 li.accepted {
     color: white;
-    background-color: #00a481;
+    background-color: #28a0c7;
 }
 
 li.in_progress, li.user_testing {
     color: white;
-    background-color: #00a481;
+    background-color: #1d1847;
 }
