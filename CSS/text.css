@@ -44,6 +44,20 @@ main a {
     font-weight: 400;
 }
 
+/* legended anchors */
+
+a.user_testing, a.in_progress {
+    color: #1d1847;
+}
+
+a.completed {
+    color: #00a481;
+}
+
+a.accepted {
+    color: #28a0c7;
+}
+
 /* legend */
 
 ul.legend {
