@@ -47,7 +47,15 @@ main a {
 /* legended anchors */
 
 a.user_testing, a.in_progress {
+    background-color: #1d1847;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover.user_testing, a:hover.in_progress {
     color: #1d1847;
+    background-color: white;
+    text-decoration: underline;
 }
 
 a.completed {
@@ -63,7 +71,15 @@ a:hover.completed {
 }
 
 a.accepted {
+    background-color: #28a0c7;
+    color:white;
+    text-decoration: none;
+}
+
+a:hover.accepted {
     color: #28a0c7;
+    background-color: white;
+    text-decoration: underline;
 }
 
 /* legend */
