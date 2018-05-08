@@ -92,6 +92,10 @@ ul.legend {
     padding: 3px
 }
 
+main li {
+    padding: 3px;
+}
+
 li.completed {
     color: white;
     background-color: #00a481;
