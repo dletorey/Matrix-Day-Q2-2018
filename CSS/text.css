@@ -44,6 +44,35 @@ main a {
     font-weight: 400;
 }
 
+/* legend */
+
+ul.legend {
+    padding: 5px
+}
+
+.legend li {
+    padding: 3px
+}
+
+main li {
+    padding: 3px;
+}
+
+li.completed {
+    color: white;
+    background-color: #00a481;
+}
+
+li.accepted {
+    color: white;
+    background-color: #28a0c7;
+}
+
+li.in_progress, li.user_testing {
+    color: white;
+    background-color: #1d1847;
+}
+
 /* legended anchors */
 
 a.user_testing, a.in_progress {
@@ -80,35 +109,6 @@ a:hover.accepted {
     color: #28a0c7;
     background-color: white;
     text-decoration: underline;
-}
-
-/* legend */
-
-ul.legend {
-    padding: 5px
-}
-
-.legend li {
-    padding: 3px
-}
-
-main li {
-    padding: 3px;
-}
-
-li.completed {
-    color: white;
-    background-color: #00a481;
-}
-
-li.accepted {
-    color: white;
-    background-color: #28a0c7;
-}
-
-li.in_progress, li.user_testing {
-    color: white;
-    background-color: #1d1847;
 }
 
 .dave {
