@@ -110,3 +110,8 @@ li.in_progress, li.user_testing {
     color: white;
     background-color: #1d1847;
 }
+
+.dave {
+    background-color: red;
+    color: antiquewhite;
+}
