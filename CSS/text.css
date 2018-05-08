@@ -51,7 +51,15 @@ a.user_testing, a.in_progress {
 }
 
 a.completed {
+    background-color: #00a481;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover.completed {
     color: #00a481;
+    background-color: white;
+    text-decoration: underline;
 }
 
 a.accepted {
