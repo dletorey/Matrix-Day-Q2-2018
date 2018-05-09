@@ -115,3 +115,8 @@ a:hover.accepted {
     background-color: red;
     color: antiquewhite;
 }
+
+.dom {
+    background-color: #1d1847;
+    color: aliceblue;
+}
