@@ -128,3 +128,15 @@ ul.breadcrumb {
     right: -4.5px;
     position: relative;
 }
+
+.breadcrumb:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+li.active:after {
+    display: table;
+    clear: both;
+    content: "";
+}
