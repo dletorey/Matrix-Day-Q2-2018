@@ -80,6 +80,10 @@ nav ul, footer ul {
     padding: 0;
 }
 
+nav ul ul {
+    padding-left: 1em;
+}
+
 /* Header & Footer */
 
 header, footer {
