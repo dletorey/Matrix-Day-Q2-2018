@@ -102,22 +102,16 @@ header a, footer a {
 
 /* Cards */
 
-.card {
-    background-color: rgba(rebeccapurple, 0.4);
-    
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
-    
-    h2,
-    p {
-      padding: 0 1rem;
-    }
-  }
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
+.card h2, .card p {
+  padding: 0 1rem;
+}
   article.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
