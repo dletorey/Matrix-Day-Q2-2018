@@ -93,6 +93,7 @@ header, footer {
 
 header h1, footer {
     text-align: center;
+    color:white;
 }
 
 header a, footer a {
