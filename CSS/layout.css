@@ -122,7 +122,7 @@ ul.breadcrumb {
     margin-bottom: 0;
 }
 
-.breadcrumb li a:after {
+.breadcrumb li:after {
     content: '/';
     color: #bbb;
     right: -4.5px;
