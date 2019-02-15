@@ -7,6 +7,10 @@
     margin-bottom: 1em;
   }
   
+  .container > .row > div {
+      border: 1px solid #28a0c7;
+      padding: 1em;
+  }
   
   .col-xs-12 {
     grid-column: span 12
